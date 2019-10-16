@@ -15,7 +15,7 @@ h1 {
   font-size: 3rem;
 }
 
-main {
+footer, header {
   margin: 0;
   background-color: #ffe500;
 }
@@ -33,28 +33,28 @@ h2 {
   margin: .3em;
 }
 
-li {
+li{
   font-size: 1.125rem;
-  background-color: #b2a212;
   border-style: none;
   display: inline;
-  font-family: Georgia, serif;
   list-style-type: none;
-  padding: .5em;
-  border-radius: 4px;
 }
 
-a {
+nav a {
+  font-family: Georgia, serif;
+  padding: .5em;
+  border-radius: 4px;
   text-decoration: none;
   color: #fff;
   margin: .3em;
+  background-color: #b2a212;
 }
 
 img {
   width: 100%;
 }
 
-a:hover {
+nav a:hover {
   background-color: #cc1465;
   color: #fff;
 }
@@ -62,6 +62,7 @@ a:hover {
 p {
   font-size: 1.125rem;
   font-family: georgia;
+  color: #2f2d13;
 }
 
 footer {
@@ -74,4 +75,8 @@ footer {
   text-align: left;
   padding: .75em;
   background-color: #fff;
+}
+
+nav .current {
+  background-color: #b20953;
 }
