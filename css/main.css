@@ -26,11 +26,15 @@ header {
 }
 
 h1, h2 {
-  color: #cc1465;
+  color: #b20953;
 }
 
 h2 {
   font-size: 1.875rem;
+  margin: .3em;
+}
+
+a {
   margin: .3em;
 }
 
@@ -42,12 +46,13 @@ li {
 }
 
 nav a {
+  display: inline-block;
   font-family: Georgia, serif;
   padding: .5em;
+  margin: .3em 0;
   border-radius: 4px;
   text-decoration: none;
   color: #fff;
-  margin: 0;
   background-color: #b2a212;
 }
 
