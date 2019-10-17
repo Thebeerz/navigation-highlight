@@ -46,11 +46,12 @@ nav a {
   border-radius: 4px;
   text-decoration: none;
   color: #fff;
-  margin: .3em;
+  margin: 0;
   background-color: #b2a212;
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
@@ -71,12 +72,12 @@ footer {
   padding: .75em;
 }
 
-.p-and-h2 {
+body section {
   text-align: left;
   padding: .75em;
   background-color: #fff;
 }
 
 nav .current {
-  background-color: #b20953;
+  background-color: #b20953
 }
