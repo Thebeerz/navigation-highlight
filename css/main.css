@@ -22,7 +22,7 @@ footer, header {
 }
 
 header {
-  padding: .75em;
+  padding: 0;
 }
 
 h1, h2 {
@@ -48,7 +48,7 @@ li {
 nav a {
   display: inline-block;
   font-family: Georgia, serif;
-  padding: .5em;
+  padding: .2em .5em .3em;
   margin: .3em 0;
   border-radius: 4px;
   text-decoration: none;
@@ -74,7 +74,7 @@ p {
 
 footer {
 
-  font-size: .75rem;
+  font-size: 1.125rem;
   font-family: georgia;
   padding: .75em;
 }
@@ -91,4 +91,9 @@ body {
 
 nav .current {
   background-color: #b20953;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
