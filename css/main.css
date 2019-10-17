@@ -74,10 +74,14 @@ footer {
   padding: .75em;
 }
 
-body .body {
+main {
   text-align: left;
   padding: .75em;
   background-color: #fff;
+}
+
+body {
+  margin: 0;
 }
 
 nav .current {
