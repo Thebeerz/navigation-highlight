@@ -8,7 +8,7 @@ html {
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h2 {
   margin: .3em;
 }
 
-li{
+li {
   font-size: 1.125rem;
   border-style: none;
   display: inline;
@@ -74,12 +74,12 @@ footer {
   padding: .75em;
 }
 
-body div {
+body .body {
   text-align: left;
   padding: .75em;
   background-color: #fff;
 }
 
 nav .current {
-  background-color: #b20953
+  background-color: #b20953;
 }
