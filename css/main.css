@@ -32,6 +32,7 @@ h1, h2 {
 h2 {
   font-size: 1.875rem;
   margin: .3em;
+  padding: .3em 0;
 }
 
 a {
@@ -70,17 +71,19 @@ p {
   font-size: 1rem;
   font-family: georgia;
   color: #2f2d13;
+  margin: .3em;
 }
 
 footer {
-  font-size: .75rem;
+  font-size: .90rem;
   font-family: georgia;
-  padding: .75em;
+  padding: 1em;
 }
 
 main {
   text-align: left;
-  padding: .75em;
+  padding: .2em;
+  margin: .3em;
   background-color: #fff;
 }
 
