@@ -4,6 +4,7 @@ html {
   line-height: 1.5;
   text-align: center;
   background-color: #fff;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -67,12 +68,13 @@ p {
 }
 
 footer {
+
   font-size: .75rem;
   font-family: georgia;
   padding: .75em;
 }
 
-body section {
+body div {
   text-align: left;
   padding: .75em;
   background-color: #fff;
